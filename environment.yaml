@@ -1,0 +1,13 @@
+name: rag
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipykernel
+  - pip
+  - bs4
+  - pip:
+      - langchain[openai]
+      - langchain-openai
+      - langchain-core
+      - beautifulsoup4

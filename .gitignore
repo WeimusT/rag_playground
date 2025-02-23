@@ -1,0 +1,6 @@
+.aml*
+.env*
+.ipynb*
+notebooks/.aml*
+notebooks/.ipynb*
+*.amltmp
